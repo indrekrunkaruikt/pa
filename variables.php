@@ -15,7 +15,7 @@ $eesNimi = "indrek";
 $pereNimi = "rünkaru";
 $email = "indrek93@gmail.com";
 $vanus =  "26";
-$pikkus = "184";
+$pikkus = "1.84";
 $kaal = "73";
 
 echo $eesNimi."<br>";
@@ -26,8 +26,10 @@ echo "email:<a href=".$email.">$email</a>".'<br>';
 echo "pikkus:". $kaal. "<br>";
 echo "kaal:". $kaal. "<br>";
 //dünaamiline defineerimine
-$kehamassiindeks = $kaal / ($pikkus*$pikkus);
+$kehamassiindeks = $kaal / ($pikkus * $pikkus);
 
 echo $kehamassiindeks;
+
+
 
 

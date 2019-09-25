@@ -10,6 +10,11 @@
  *
  **/
 // Väljastus php's
-print "Tere maailm.";
+print "Tere maailm.<br>";
+
+echo "mingi tekst veel<br>";
+
+echo "veel ingi teksta<br>";
+
 
 

@@ -16,7 +16,7 @@ $pereNimi = "rünkaru";
 $email = "indrek93@gmail.com";
 $vanus =  "26";
 $pikkus = "184";
-$kaal = "73kg";
+$kaal = "73";
 
 echo $eesNimi."<br>";
 echo $email."<br>";

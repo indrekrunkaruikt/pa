@@ -9,4 +9,7 @@
  * dokumentatsiooni kommentaar.
  *
  **/
+// Väljastus php's
+print "Tere maailm.";
+
 

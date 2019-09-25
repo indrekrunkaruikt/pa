@@ -25,3 +25,9 @@ echo "vanus: ". $vanus. "<br>";
 echo "email:<a href=".$email.">$email</a>".'<br>';
 echo "pikkus:". $kaal. "<br>";
 echo "kaal:". $kaal. "<br>";
+//dünaamiline defineerimine
+$kehamassiindeks = $kaal / ($pikkus*$pikkus);
+
+echo $kehamassiindeks;
+
+

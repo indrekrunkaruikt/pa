@@ -1,3 +1,4 @@
+
 # pa
 Programeerimise alused VS19
 
@@ -19,3 +20,20 @@ Antud kursus annab ülevaate programmeerimise aluse baasteadmised.
 *github.exe ühendus
 
 *github.com repo loomine ning ühendamine.
+
+
+### 25.09.2019
+* git kasutamine käsurealt
+
+kui repo pole initsialiseeritudt tuleb kirjutada ´´´´git init´´´´
+
+
+kui tahame lisada faili jälgimiseks tuleb kirjutada````git add faili_nimi``
+
+muudatuste tegemiseks peame kirjutama märkuse```git commit -m  "sonum"``
+
+lükka lokaalselt kuhugile mujale oma muudetud materjalid ``git push -uf origin master``
+siin origin on ühenduse nimi ja master on peaharu
+
+
+

@@ -42,4 +42,6 @@ oleme kasutanud ka php keskkonna käske:
 ``alt+9`` mmillega näeb commitide ajalugu.
 
 Commit changesi all muutsime linnukesi, et perform analysis ja chcek to do ei oleks aktiivsed.
- 
+
+
+

@@ -35,5 +35,11 @@ muudatuste tegemiseks peame kirjutama märkuse```git commit -m  "sonum"``
 lükka lokaalselt kuhugile mujale oma muudetud materjalid ``git push -uf origin master``
 siin origin on ühenduse nimi ja master on peaharu
 
+oleme kasutanud ka php keskkonna käske:
 
+``ctrl+k`` millega saab commit'ida.
 
+``alt+9`` mmillega näeb commitide ajalugu.
+
+Commit changesi all muutsime linnukesi, et perform analysis ja chcek to do ei oleks aktiivsed.
+ 

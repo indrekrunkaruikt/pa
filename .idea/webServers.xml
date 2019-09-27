@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="91492120-e710-4f9b-b2f1-bfa47867c23e" name="minu server 2100" url="http://runkaruindrek.ikt.khk.ee">
+        <fileTransfer host="runkaruindrek.ikt.khk.ee" port="22" rootFolder="/home/runkaruindrekikt/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

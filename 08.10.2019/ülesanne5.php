@@ -11,22 +11,33 @@
 
         <form action="ül5vastus.php" method="post">
             Sisesta oma sünnipäev: <br>
-            <input type="date" name="väli1" ><br>
+            <input type="date" name="väli1" ><br><br>
             Vali oma rahvus: <br>
             <select name="väli2">
                 <option value="Eesti">Eesti</option>
                 <option value="Vene">Vene</option>
                 <option value="Inglise">Inglise</option>
                 <option value="Soome">Soome</option>
-            </select><br>
-            Vali oma haridustase:<br>
-            <select name="väli3">
-                <option value="alg-haridus">alg-haridus</option>
-                <option value="põhi-haridus">põhi-haridus</option>
-                <option value="kesk-haridus">kesk-haridus</option>
-                <option value="kesk-eri-haridus">kesk-eri-haridus</option>
-                <option value="kõrg-haridus">kõrg-haridus</option>
             </select><br><br>
+            Vali oma haridustase:<br><br>
+            <input type="radio" id="huey" name="väli3" value="alg-haridus"
+                   checked>
+            <label for="huey">alg-haridus</label>
+            <input type="radio" id="huey" name="väli3" value="põhi-haridus"
+                   checked>
+            <label for="huey">põhi-haridus</label>
+            <input type="radio" id="huey" name="väli3" value="kesk-haridus"
+                   checked>
+            <label for="huey">kesk-haridus</label><br><br>
+            <input type="radio" id="huey" name="väli3" value="kesk-eri-haridus"
+                   checked>
+            <label for="huey">kesk-eri-haridus</label>
+            <input type="radio" id="huey" name="väli3" value="kõrg-haridus"
+                   checked>
+            <label for="huey">kõrg-haridus</label>
+
+
+            <br><br>
             <input type="submit">
         </form>
 

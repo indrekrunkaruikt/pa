@@ -7,8 +7,9 @@ $lubatudVanus= 18;
 $rahvus =  $_POST['väli2'];
 $lubatudRahvus= "Eesti";
 
-$lubatudHaridus = array("põhi-haridus","kesk-haridus","kesk-eri-haridus","kõrg-haridus");
+$lubatudHaridus = "põhi-haridus" or "kesk-haridus" or "kesk-eri-haridus" or "kõrg-haridus";
 $haridus = $_POST['väli3'];
+
 
 if($lubatudVanus<=$vanus && $lubatudRahvus==$rahvus && $lubatudHaridus==$haridus){
     echo "Olete oodatud kaitseväkke";

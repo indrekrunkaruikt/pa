@@ -7,8 +7,9 @@ $lubatudVanus= 18;
 $rahvus =  $_POST['väli2'];
 $lubatudRahvus= "Eesti";
 
-$lubatudHaridus = "põhi-haridus" or "kesk-haridus" or "kesk-eri-haridus" or "kõrg-haridus";
 $haridus = $_POST['väli3'];
+$lubatudHaridus = "põhi-haridus" or "kesk-haridus" or "kesk-eri-haridus" or "kõrg-haridus";
+
 
 
 if($lubatudVanus<=$vanus && $lubatudRahvus==$rahvus && $lubatudHaridus==$haridus){

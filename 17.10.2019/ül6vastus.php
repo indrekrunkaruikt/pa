@@ -2,13 +2,13 @@
 $laius = $_POST['laius'];
 $korgus = $_POST['korgus'];
 
-function drawTable($rows, $cols){
+function drawTable($korgus, $laius){
     echo "<table border='2px solid black' >";
 
-    for($tr=1;$tr<=$rows;$tr++){
+    for($tr=1;$tr<=$korgus;$tr++){
 
         echo "<tr>";
-        for($td=1;$td<=$cols;$td++){
+        for($td=1;$td<=$laius;$td++){
             echo "<td align='center'>".$tr*$td."</td>";
         }
         echo "</tr>";

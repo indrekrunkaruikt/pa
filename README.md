@@ -43,5 +43,41 @@ oleme kasutanud ka php keskkonna käske:
 
 Commit changesi all muutsime linnukesi, et perform analysis ja chcek to do ei oleks aktiivsed.
 
+### 27.09.2019
 
+* Php käskude sisestamine
 
+ <a href="https://www.php.net">https://www.php.net</a><br><br>
+    round()- Kasutame, et ümardada arve NT:<br>
+    kui soovime korduvalt ümardada teeme sellise omaduse.<br><br>
+
+    $ringiPindalaUmmardatud= round($ringiPindala, 3);<br>
+    $ringi pindala on summa mida me ümardame, 3 on mitu kohta me ümardame<br><br>
+
+    kui me soovime ümardamist ühe korra kasutada siis võime seda otse programmi sisse kirjutada:<br>
+    .round($ringiPindala,5).<br><br>
+
+    pi()- Kasutame et saada pi väärtust NT: $ringiPindala = pi() * pi() * $raadius;<br>
+    vardump- kasutame et esitada programmi struktuuri näitajaid.
+
+    var_dump($ringiumbermoot);<br>
+    see käsk toob ette ringi ümbermõõdu.
+### 08.10.2019
+
+*   Php harjutuste tegemine.
+
+### 17.10.2019
+
+*   Php tsüklid.
+
+    FOR - Tegemist on kindla kordustearvuga tsükliga.
+        
+    while - Tegemist on eelkontrolli tsükliga, mis täidab käsku, kuni etteantud tingimus vastab tõele.
+
+    do… - Do…while on aga järelkontrolliga tsükkel. Selle tsükli puhul väljastatakse lause enne ja siis kontrollitakse tingimust.
+    
+    Tsükleid saab sisestada tsüklite sisse.
+
+### 21.10.2019
+
+*   

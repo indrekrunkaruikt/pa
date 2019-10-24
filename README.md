@@ -64,8 +64,18 @@ Commit changesi all muutsime linnukesi, et perform analysis ja chcek to do ei ol
     see käsk toob ette ringi ümbermõõdu.
 ### 08.10.2019
 
-*   Php harjutuste tegemine.
+*   Php Tingimuslaused.
 
+    Tingimuslausetega saab teha otsuseid sõltuvalt kasutaja valikutest. NT: Kas kasutaja on sisselogimisel kõik väljad täitnud.
+
+    IF tingimus alustab tegevust siis kui vastus on true.
+    
+    IF-ELSE tingimusel algab tegevus kui vastus on kas tõene või väär.
+    
+    IF... IF ELSE ... ELSE tingimusel on võimalik lisada mitmeid vastusevariante.
+    
+    SWITCH tingimusel on lihtsam lisada suurem kogus vastusevariante
+    
 ### 17.10.2019
 
 *   Php tsüklid.
@@ -80,4 +90,4 @@ Commit changesi all muutsime linnukesi, et perform analysis ja chcek to do ei ol
 
 ### 21.10.2019
 
-*   
+*   Koostasime tabeleid.

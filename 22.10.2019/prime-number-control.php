@@ -1,25 +1,36 @@
 <?php
 
 
-use mysql_xdevapi\Result;
-$number= 2;
-function is_primeNumber($number){
-     if ($number < 2) {
-            $Result= $number. '&nbsp ei sobi<br>';
-        } else {
-            $divider = 2;
-            while ($number % $divider != 0) {
-                $divider++;
-            }
-            if ($number == $divider) {
-                $Result= true;
 
-            } else {
-                $Result= false;
-            }
+function isPrimeNumber($number) {
+    if ($number < 2) {
+        echo $number.' - antud arv ei kuulu valitud vahemiku sisse <br>';
+    } else {
+        $divider = 2; // define divider
+        while ($number % $divider != 0) {
+            // while number is not divided by divider with modulo 0
+            $divider++; // get the next divider value
         }
-    return $Result;
-
+        // if number and divider is equal - prime number
+        if ($number == $divider) {
+            $result = true;
+        } else {
+            // otherwise
+            $result = false;
+        }
+    }
+    return $result;
 }
-
-is_primeNumber(rand(0,2000));
+// define function, which use the boolean result of isPrimeNumber and
+// show the text - is prime or is not prime with the number value
+function isPrimeNumberDescription($number, $isPrime) {
+//  if($iisPrime == true) is the same
+    if($isPrime) {
+        echo $number.' on algarv<br>';
+    } else {
+        echo $number.' ei ole algarv<br>';
+    }
+}
+// use the function
+$number = rand(1, 10);
+isPrimeNumberDescription($number, isPrimeNumber($number));

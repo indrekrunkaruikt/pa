@@ -88,6 +88,7 @@ Commit changesi all muutsime linnukesi, et perform analysis ja chcek to do ei ol
     
     Tsükleid saab sisestada tsüklite sisse.
 
-### 21.10.2019
+### 22.10.2019
 
-*   Koostasime tabeleid.
+*   Harjutasime funktsioonide tegemist ja funktsioonide lisamine funktsioonidesse.
+

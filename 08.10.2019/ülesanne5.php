@@ -1,3 +1,6 @@
+Sõjaväekohustus – leia kas kasutaja on sõjaväeteenituse jaoks kõlbulik. Selleks
+peab olema täidetud järgmised tingimused: eestlane, 18+ ja vähemalt 9kl haridus
+
 <html>
 <head>
 

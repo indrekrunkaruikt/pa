@@ -1,4 +1,7 @@
 <?php
+
+//Suurem/väiksem (if…elseif) – sisestatakse 2 täisarvulist muutujat. Leia kumb arv on
+//suurem või on need võrdsed. Lisa kontroll, mis ei käivita koodi tühjade lahtrite puhul.
 ?>
 
 

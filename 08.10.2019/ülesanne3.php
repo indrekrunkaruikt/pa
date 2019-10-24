@@ -1,5 +1,6 @@
 <?php
-//Juubel – kasutaja lisab sünniaasta ning kood väljastab, kas tegemist on juubeliaastaga. Lisa kontroll, mis ei käivita koodi tühjade lahtrite puhul.
+//Juubel – kasutaja lisab sünniaasta ning kood väljastab, kas tegemist on
+//juubeliaastaga. Lisa kontroll, mis ei käivita koodi tühjade lahtrite puhul.
 
 ?>
 

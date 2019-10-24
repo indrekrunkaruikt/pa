@@ -1,3 +1,6 @@
+Arvamismäng (switch) – kasutaja üritab ära arvata arvu. Et tal oleks lihtsam arvata,
+siis anna vihje, kas lisatud arv on liiga suur või väike. Ära arvamise puhul kiida!
+
 <!DOCTYPE HTML>
 <html>
 <head

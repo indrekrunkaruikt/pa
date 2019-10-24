@@ -1,3 +1,7 @@
+//Jagamine – sisestatakse 2 täisarvulist muutujat. Jaga üks arv teisega.
+Väljasta ka hoiatav lause, kui kasutaja üritab jagada nulliga. Lisa kontroll,
+mis ei käivita koodi tühjade lahtrite puhul (N: if(!empty($_GET[‘name’])){lause}
+, see käivitab koodi siis, kui lahtrisse on midagi lisatud)
 
 <!DOCTYPE HTML>
 <html>
